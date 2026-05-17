@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Home from './pages/Home'
 import Loginsco from './pages/scolarite/Loginsco'
 import ScolariteApp from './pages/scolarite/ScolariteApp'
-import ProfesseurApp from './pages/professeur/ProfesseurApp'
+import ProfesseurApp from './pages/professeur/Loginprof'
 import PublicApp from './pages/public/PublicApp'
 
 function App() {
@@ -20,8 +20,8 @@ function App() {
     case 'scolarite':
       return <ScolariteApp onBack={goHome} />
     
-    case 'professeur':
-      return <ProfesseurApp onBack={goHome} />
+    case 'loginprof':
+      return <ProfesseurApp onBack={goHome} onLogin={() => setCurrentView('professeur')} />
     
     case 'public':
       return <PublicApp onBack={goHome} />
