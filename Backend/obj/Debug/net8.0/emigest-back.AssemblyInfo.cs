@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("emigest-back")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1461f79fa1d7e82734b43618d139e7e5312629b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62e5dded2e56a782f30e3a61840dfabadc6d7b3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("emigest-back")]
 [assembly: System.Reflection.AssemblyTitleAttribute("emigest-back")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
